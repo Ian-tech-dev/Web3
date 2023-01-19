@@ -1,5 +1,5 @@
 //SPDX-License-Identifier:MIT
-pragma solidity 0.8.7;
+pragma solidity ^0.8.7;
 contract SimpleStorage{
     uint256 public myNumber =22;
     People public person =People({name:'Ian',favoriteNum:4});
